@@ -1,0 +1,49 @@
+name: Update Contribution Badge
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get contribution count
+        id: contributions
+        run: |
+          YEAR=$(date +%Y)
+          # Fetch contribution data from GitHub GraphQL API
+          QUERY=$(cat <<EOF
+          {
+            "query": "query { user(login: \"Emii-lia\") { contributionsCollection(from: \"${YEAR}-01-01T00:00:00Z\", to: \"${YEAR}-12-31T23:59:59Z\") { contributionCalendar { totalContributions } } } }"
+          }
+          EOF
+          )
+          
+          RESPONSE=$(curl -s -H "Authorization: bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -X POST -d "$QUERY" https://api.github.com/graphql)
+          
+          CONTRIBUTIONS=$(echo $RESPONSE | jq -r '.data.user.contributionsCollection.contributionCalendar.totalContributions')
+          echo "count=$CONTRIBUTIONS" >> $GITHUB_OUTPUT
+          echo "year=$YEAR" >> $GITHUB_OUTPUT
+
+      - name: Update README
+        run: |
+          # Create contribution badge URL
+          BADGE_URL="https://img.shields.io/badge/${{ steps.contributions.outputs.year }}_Contributions-${{ steps.contributions.outputs.count }}-70A4FC?style=flat-square&logo=github"
+          
+          # Update README with new badge
+          sed -i "s|!\[Contributions\](.*)|![Contributions]($BADGE_URL)|g" README.md
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update contribution count badge"
+          git push
