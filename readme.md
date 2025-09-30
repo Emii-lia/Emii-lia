@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=70A4FC&center=true&vCenter=true&width=435&lines=Fiaro Miangaly)](https://github.com/Emii-lia)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=70A4FC&center=true&vCenter=true&width=435&lines=Fiaro_Miangaly)](https://github.com/Emii-lia)
 
 
 ![Committers Madagascar](https://user-badge.committers.top/madagascar_private/Emii-lia.svg)
