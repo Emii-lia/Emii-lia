@@ -7,8 +7,8 @@
 [![GitHub followers](https://img.shields.io/github/followers/Emii-lia?label=Follow&style=social)](https://github.com/Emii-lia)
 
 [![](https://img.shields.io/badge/🎵_Meowsic_Player-282a36?style=flat-square)](https://github.com/Emii-lia/meowsic-player)
-[![](https://img.shields.io/badge/⚙️_Dotfiles-282a36?style=flat-square)](https://github.com/Emii-lia/dotfiles)
+[![](https://img.shields.io/badge/🌟_Yewi_kit-282a36?style=flat-square)](https://github.com/Emii-lia/yewi-kit)
+[![](https://img.shields.io/badge/⚙️_Dotfiles-282a36?style=flat-square)](https://github.com/Emii-lia/cachy-gnome-dotfiles)
 [![](https://img.shields.io/badge/💣_Bomber_man-282a36?style=flat-square)](https://github.com/Emii-lia/Bomber_man)
-[![](https://img.shields.io/badge/🐧_Sddm_theme-282a36?style=flat-square)](https://github.com/Emii-lia/sddm-astronaut-theme-pop-os)
-
+[![](https://img.shields.io/badge/🐧_Sddm_theme-282a36?style=flat-square)](https://github.com/Emii-lia/genshin-sddm-theme-re)
 </div>
