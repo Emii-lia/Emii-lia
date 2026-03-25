@@ -11,4 +11,9 @@
 [![](https://img.shields.io/badge/⚙️_Dotfiles-282a36?style=flat-square)](https://github.com/Emii-lia/cachy-gnome-dotfiles)
 [![](https://img.shields.io/badge/💣_Bomber_man-282a36?style=flat-square)](https://github.com/Emii-lia/Bomber_man)
 [![](https://img.shields.io/badge/🐧_Sddm_theme-282a36?style=flat-square)](https://github.com/Emii-lia/genshin-sddm-theme-re)
+
+---
+
+[![trophy](https://github-profile-trophy-tawny.vercel.app/?username=Emii-lia&theme=onestar&title=-Issues,-Reviews&column=-1)](https://github.com/ryo-ma/github-profile-trophy)
+
 </div>
