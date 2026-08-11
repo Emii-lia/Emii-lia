@@ -1,19 +1,24 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=70A4FC&center=true&vCenter=true&width=435&lines=Fiaro_Miangaly)](https://github.com/Emii-lia)
+# Fiaro Miangaly
 
+**Frontend Engineer · Rust Developer**
 
-![Committers Madagascar](https://user-badge.committers.top/madagascar_private/Emii-lia.svg)
-[![GitHub followers](https://img.shields.io/github/followers/Emii-lia?label=Follow&style=social)](https://github.com/Emii-lia)
+Frontend by trade. Rust by conviction.
 
-[![](https://img.shields.io/badge/🎵_Meowsic_Player-282a36?style=flat-square)](https://github.com/Emii-lia/meowsic-player)
-[![](https://img.shields.io/badge/🌟_Yewi_kit-282a36?style=flat-square)](https://github.com/Emii-lia/yewi-kit)
-[![](https://img.shields.io/badge/⚙️_Dotfiles-282a36?style=flat-square)](https://github.com/Emii-lia/cachy-gnome-dotfiles)
-[![](https://img.shields.io/badge/💣_Bomber_man-282a36?style=flat-square)](https://github.com/Emii-lia/Bomber_man)
-[![](https://img.shields.io/badge/🐧_Sddm_theme-282a36?style=flat-square)](https://github.com/Emii-lia/genshin-sddm-theme-re)
+[fiaro.dev](https://fiaro.dev) · [in/fiaro-voniarimalala](https://www.linkedin.com/in/fiaro-voniarimalala) · [mail@fiaro.me](mailto:mail@fiaro.me)
+
+</div>
 
 ---
 
-[![trophy](https://github-profile-trophy-tawny.vercel.app/?username=Emii-lia&theme=onestar&title=-Issues,-Reviews&column=-1)](https://github.com/ryo-ma/github-profile-trophy)
+I build web applications and developer tooling with a focus on **developer experience, architecture, and maintainability**.
 
-</div>
+**TypeScript · React · Next.js · Rust**
+
+### Open source
+
+[**yewi-kit**](https://github.com/Emii-lia/yewi-kit) · UI architecture for Yew  
+[**yewi-cli**](https://github.com/Emii-lia/yewi-cli) · Yew project scaffolding and components  
+[**yewi-seo**](https://github.com/Emii-lia/yewi-seo) · First-class SEO for Yew  
+[**buddy-rs**](https://github.com/Emii-lia/buddy-rs) · Linux/Unix command-line assistant
