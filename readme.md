@@ -6,7 +6,7 @@
 
 Frontend by trade. Rust by conviction.
 
-[fiaro.dev](https://fiaro.dev) · [in/fiaro-voniarimalala](https://www.linkedin.com/in/fiaro-voniarimalala) · [mail@fiaro.me](mailto:mail@fiaro.me)
+[fiaro.dev](https://fiaro.dev) · [fiaro.me](https://fiaro.me)
 
 </div>
 
