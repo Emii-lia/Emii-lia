@@ -18,7 +18,7 @@ I build web applications and developer tooling with a focus on **developer exper
 
 ### Open source
 
-[**yewi-kit**](https://github.com/Emii-lia/yewi-kit) · UI architecture for Yew  
-[**yewi-cli**](https://github.com/Emii-lia/yewi-cli) · Yew project scaffolding and components  
-[**yewi-seo**](https://github.com/Emii-lia/yewi-seo) · First-class SEO for Yew, Dioxus and Leptos
-[**buddy-rs**](https://github.com/Emii-lia/buddy-rs) · Linux/Unix command-line assistant
+[**yewi-kit**](https://github.com/Emii-lia/yewi-kit) · UI architecture for Yew [/](https://yewi.fiaro.app)  
+[**yewi-cli**](https://github.com/Emii-lia/yewi-cli) · Yew project scaffolding and components [/](https://crates.io/crates/yewi-cli)  
+[**yewi-seo**](https://github.com/Emii-lia/yewi-seo) · First-class SEO for Yew, Dioxus and Leptos [/](https://crates.io/crates/yewi-seo)  
+[**buddy-rs**](https://github.com/Emii-lia/buddy-rs) · Linux/Unix command-line assistant [/](https://crates.io/crates/buddy-rs)
